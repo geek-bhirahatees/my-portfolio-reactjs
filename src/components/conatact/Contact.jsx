@@ -16,7 +16,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data"></span>
 
-              <a href="#" className="contact__button">
+              <a href="#contact" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -26,7 +26,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data"></span>
 
-              <a href="#" className="contact__button">
+              <a href="#contact" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
