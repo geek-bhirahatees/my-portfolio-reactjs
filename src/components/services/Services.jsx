@@ -7,15 +7,13 @@ const Services = () => {
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Projects</h2>
-      <span className="section__subtitle">What I offer</span>
+      <span className="section__subtitle">My works</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Product <br /> Designer
-            </h3>
+            <h1>XO</h1>
+            <h3 className="services__title">Tic Tac Toe</h3>
           </div>
           <span className="services__button" onClick={() => setToggleState(1)}>
             View More
@@ -33,36 +31,33 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => setToggleState(0)}
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Tic Tac Toe</h3>
               <p className="services__modal-description">
-                I'm a Front-end Developer. I built a website using HTML, CSS,
-                and JS. I'm a active Learner. I wish to learn new Technologies.
+                This was my first project when I learned HTML, CSS, and JS.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    This Project helps me to understand about DOM.
                   </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I wish to create simple interaction.
+                    <a href="https://github.com/coding-medjey/tictactoe/tree/4c9ba77ad45c93a78b4bc26479219a87d1b016f7">
+                      Github Link
+                    </a>
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I'm Active Learner.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Problem Solver</p>
+                  <p className="services__modal-info">
+                    <a href="https://619f5fe49eae3e00c40c4887--happy-northcutt-198e4c.netlify.app/">
+                      Live Demo
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -70,10 +65,13 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">
-              UI/UX <br /> Designer
-            </h3>
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/pulsar-line/48/land-mine.png"
+              alt="land-mine"
+            />
+            <h3 className="services__title">Minesweeper</h3>
           </div>
           <span className="services__button" onClick={() => setToggleState(2)}>
             View More
@@ -91,36 +89,38 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => setToggleState(0)}
               ></i>
-              <h3 className="services__modal-title"> UI/UX Designer</h3>
+              <h3 className="services__modal-title"> Minesweeper</h3>
               <p className="services__modal-description">
-                I'm a Front-end Developer. I built a website using HTML, CSS,
-                and JS. I'm a active Learner. I wish to learn new Technologies.
+                This was my favorite project I like to play Minesweeper. So I
+                decided to make my version of Minesweeper.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    This helps me to build a login into code {"< >"}.
                   </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I wish to create simple interaction.
+                    Technologies used in this project HTML, CSS and JS.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I'm Active Learner.</p>
+                  <p className="services__modal-info">
+                    <a href="https://github.com/coding-medjey/minesweeper">
+                      Github Link
+                    </a>
+                  </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Problem Solver</p>
+                  <a href="https://vibrant-noether-1f5518.netlify.app/">
+                    Live Demo
+                  </a>
                 </li>
               </ul>
             </div>
@@ -128,10 +128,8 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Visual <br /> Designer
-            </h3>
+            <i className="uil uil-comment services__icon"></i>
+            <h3 className="services__title">Pupdesk</h3>
           </div>
           <span className="services__button" onClick={() => setToggleState(3)}>
             View More
@@ -149,36 +147,34 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => setToggleState(0)}
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Pupdesk</h3>
               <p className="services__modal-description">
-                I'm a Front-end Developer. I built a website using HTML, CSS,
-                and JS. I'm a active Learner. I wish to learn new Technologies.
+                Pupdesk is a web app designed for school student who wants to
+                raise an issue like a ticket
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Technologies used in this project HTML, CSS and JS.
                   </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I wish to create simple interaction.
+                    <a href="https://github.com/fssa-batch3/bhirahatees.periyasamy__web_project_2/tree/dev">
+                      Github Link
+                    </a>
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I'm Active Learner.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Problem Solver</p>
+                  <p className="services__modal-info">
+                    <a href="https://deploy-preview-2--precious-zabaione-0f2cc5.netlify.app/">
+                      Live Demo
+                    </a>
+                  </p>
                 </li>
               </ul>
             </div>
